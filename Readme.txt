@@ -4,6 +4,8 @@ vagrant up
 
 goto 192.168.50.100:8080
 
+Vagrant ssh (to get into the VM)  
+# Then add gem install for specserv to the VM (high risk issues creating a Ruby Shim for my OSX under current circumstances) 
 
 SpecServ
 bundle exec rspec spec/Dockerfile_spec.rb
